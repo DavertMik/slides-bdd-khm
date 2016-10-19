@@ -111,8 +111,6 @@ public function iShouldSeeTheAdministratorDashboard()
   $I->adminPage->waitForPageTitle(ControlPanelPage::$pageTitle);
   $I->see(ControlPanelPage::$pageTitle, AdminPage::$pageTitle);
 }
-
-
 /**
  * @Given There is a add content link
  */
