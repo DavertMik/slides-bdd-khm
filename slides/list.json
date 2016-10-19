@@ -9,14 +9,8 @@
       "attr": {
           "data-background-video": "resources/plumbus.mp4"
       }
-    },    
-
+    },
     "after-plumbus.md",
-    {
-      "attr": {
-          "data-background-video": "resources/plumbus.mp4"
-      }
-    },    
     {
       "attr": {
           "data-background": "resources/real_plumbus.jpg"
