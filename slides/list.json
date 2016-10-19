@@ -5,9 +5,18 @@
       }
     },  
     "index.md",
-    "plumbus-video.html",
+    {
+      "attr": {
+          "data-background-video": "resources/plumbus.mp4"
+      }
+    },    
+
     "after-plumbus.md",
-    "plumbus-video.html",
+    {
+      "attr": {
+          "data-background-video": "resources/plumbus.mp4"
+      }
+    },    
     {
       "attr": {
           "data-background": "resources/real_plumbus.jpg"

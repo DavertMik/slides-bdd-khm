@@ -305,12 +305,17 @@ body .reveal section img {
   border: none; }
 
 body .reveal section code {
-  overflow: hidden; }
+  overflow: hidden;
+  max-height: 100%; }
 
 body .reveal section pre {
-  max-height: auto;
+  max-height: 100%;
   box-shadow: none; }
 
 body .reveal section img {
   border: none;
   box-shadow: none; }
+
+body .reveal section video {
+  width: 100%    !important;
+  height: auto   !important; }
