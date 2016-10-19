@@ -13,18 +13,14 @@ body .reveal section code {
   overflow: hidden; }
 
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
-  color: #222; }
+  color: #ee4024; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #fff url(../resources/cover.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;  
-}
+  background: #fff;
+  background-color: #fff; }
 
 .reveal {
   font-family: "Cuprum", "Source Sans Pro", Helvetica, sans-serif;
@@ -33,8 +29,8 @@ body {
   color: #089cd3; }
 
 ::selection {
-  color: #089cd3;
-  background: #bee4fd;
+  color: #fff;
+  background: #a6a6a6;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -150,10 +146,6 @@ body {
 .reveal q {
   font-style: italic; }
 
-body .reaveal a {
-  color: #666;
-}
-
 .reveal pre {
   display: block;
   position: relative;
@@ -164,7 +156,7 @@ body .reaveal a {
   font-family: monospace;
   line-height: 1.2em;
   word-wrap: break-word;
-}
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
 
 .reveal code {
   font-family: monospace; }
@@ -173,6 +165,7 @@ body .reaveal a {
   display: block;
   padding: 5px;
   overflow: auto;
+  max-height: 400px;
   word-wrap: normal; }
 
 .reveal table {
@@ -219,20 +212,20 @@ body .reaveal a {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #666;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #8c8c8c;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #068de9; }
+  background: #404040; }
 
 /*********************************************
  * IMAGES
@@ -240,7 +233,8 @@ body .reaveal a {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-}
+  border: 4px solid #089cd3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
   border: 0;
@@ -253,7 +247,7 @@ body .reaveal a {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #42affa;
+  border-color: #666;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -261,31 +255,31 @@ body .reaveal a {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #42affa; }
+  border-right-color: #666; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #42affa; }
+  border-left-color: #666; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #42affa; }
+  border-bottom-color: #666; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #42affa; }
+  border-top-color: #666; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #8dcffc; }
+  border-right-color: #8c8c8c; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #8dcffc; }
+  border-left-color: #8c8c8c; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #8dcffc; }
+  border-bottom-color: #8c8c8c; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #8dcffc; }
+  border-top-color: #8c8c8c; }
 
 /*********************************************
  * PROGRESS BAR
@@ -294,7 +288,22 @@ body .reaveal a {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #42affa;
+  background: #666;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+body .reveal section img {
+  background: none;
+  border: none; }
+
+body .reveal section code {
+  overflow: hidden; }
+
+body .reveal section pre {
+  max-height: auto;
+  box-shadow: none; }
+
+body .reveal section img {
+  border: none;
+  box-shadow: none; }
