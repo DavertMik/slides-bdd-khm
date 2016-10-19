@@ -43,6 +43,13 @@ $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
 body .reveal section {
+
+  background: #fff url(../resources/cover.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;    
+
   img {
     background: none;
     border: none;

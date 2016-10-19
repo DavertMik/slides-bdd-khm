@@ -5,12 +5,17 @@
  */
 @import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
 @import 'https://fonts.googleapis.com/css?family=Cuprum';
-body .reveal section img {
-  background: none;
-  border: none; }
-
-body .reveal section code {
-  overflow: hidden; }
+body .reveal section {
+  background: #fff url(../resources/cover.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  body .reveal section img {
+    background: none;
+    border: none; }
+  body .reveal section code {
+    overflow: hidden; }
 
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #ee4024; }
