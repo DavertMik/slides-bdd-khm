@@ -42,13 +42,7 @@ $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
-body .reveal section {
-
-  background: #fff url(../resources/cover.png);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;    
+body .reveal section {  
 
   img {
     background: none;
@@ -69,6 +63,14 @@ section.has-light-background {
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
+body {
+
+  background: #fff url(../resources/cover.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;    
+}
 
 body .reveal section {
   img {
