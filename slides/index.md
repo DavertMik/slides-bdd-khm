@@ -1,15 +1,16 @@
 
-# BDD in Codeception
+# Кто я
 
+* Веб-разработчик (PHP,JS,Ruby) из Киева
+* Пилю open-source: Codeception/CodeceptJS/Robo
+* Хожу в горы со своим слоном..
+![](resources/me.jpg)
 
 ---
 
-# Кто я
+## Выступаю на конференциях
 
-* Веб-разработчик (PHP,JS,Roby) из Киева
-* Пилю open-source: Codeception/CodeceptJS/Robo
-* Выступаю на конференциях: Amsterdam, Barcelona, Istanbul,...
-![](resources/me.jpg)
+![](resources/map.png)
 
 ---
 
@@ -28,12 +29,6 @@
 ## Что мы делаем?
 
 ![](resources/whowe.jpg)
-
----
-
-## Что мы делаем?
-
-![](resources/weare.png)
 
 ---
 

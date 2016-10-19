@@ -1,4 +1,9 @@
 [
+    {
+      "attr": {
+          "data-background": "resources/front.svg"
+      }
+    },  
     "index.md",
     "plumbus-video.html",
     "after-plumbus.md",
