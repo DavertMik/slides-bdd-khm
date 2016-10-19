@@ -1,11 +1,4 @@
-### История BDD 
-
-![](resources/dannorth.png)
-
-* тесты привязываем к спецификации
-* названия тестов описывают поведение
-* str_replace('test', 'should', $testName);
-* [Introducing BDD](http://dannorth.net/introducing-bdd/)
+# Что нужно для BDD?
 
 ---
 

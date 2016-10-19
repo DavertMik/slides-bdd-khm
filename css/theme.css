@@ -19,17 +19,21 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #c0392b;
-  background-color: #c0392b; }
+  background: #fff url(../resources/cover.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
 
 .reveal {
   font-family: "Cuprum", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 38px;
   font-weight: normal;
-  color: #fff; }
+  color: #089cd3; }
 
 ::selection {
-  color: #fff;
+  color: #089cd3;
   background: #bee4fd;
   text-shadow: none; }
 
@@ -48,7 +52,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
+  color: #ee4024;
   font-family: "Cuprum", "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 600;
   line-height: 1.2;
@@ -146,6 +150,10 @@ body {
 .reveal q {
   font-style: italic; }
 
+body .reveal a {
+  color: #666;
+}
+
 .reveal pre {
   display: block;
   position: relative;
@@ -156,7 +164,7 @@ body {
   font-family: monospace;
   line-height: 1.2em;
   word-wrap: break-word;
-  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+}
 
 .reveal code {
   font-family: monospace; }
@@ -165,7 +173,6 @@ body {
   display: block;
   padding: 5px;
   overflow: auto;
-  max-height: 400px;
   word-wrap: normal; }
 
 .reveal table {
@@ -233,8 +240,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+}
 
 .reveal section img.plain {
   border: 0;
