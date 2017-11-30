@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:DavertMik/slides-dog.git"
+    "url": "git@github.com:DavertMik/slides-bdd-magento.git"
   },
   "scripts": {
     "test": "grunt test"
