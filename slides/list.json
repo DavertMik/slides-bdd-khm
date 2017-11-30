@@ -1,9 +1,4 @@
 [
-    {
-      "attr": {
-          "data-background": "resources/front.svg"
-      }
-    },  
     "index.md",
     {
       "attr": {
@@ -16,6 +11,12 @@
           "data-background": "resources/real_plumbus.jpg"
       }
     },
+    "webserver.md",
+    {
+      "attr": {
+          "data-background-video": "resources/webserver2.mp4"
+      }
+    },    
     "case.md",
     "bdd.md",
     "testing.md",

@@ -1,8 +1,15 @@
+# Что такое BDD
+
+##  и при чем здесь плюмбусы
+
+
+
+---
 
 # Кто я
 
 * Веб-разработчик (PHP,JS,Ruby) из Киева
-* Пилю open-source: Codeception/CodeceptJS/Robo
+* Пилю open-source: **Codeception**, Robo, CodeceptJS
 * Хожу в горы со своим слоном..
 ![](resources/me.jpg)
 
@@ -11,6 +18,14 @@
 ## Выступаю на конференциях
 
 ![](resources/map.png)
+
+---
+
+[http://bit.do/vecher](http://bit.do/vecher)
+
+![](resources/vecher.jpg)
+
+организовую офигительные вечера в Киеве
 
 ---
 
@@ -63,7 +78,7 @@
 ---
 
 
-## Не всё же соцсети с котятами фигачить
+## Не всё же интернет-магазины для китайского барахла делать
 
 ![](resources/client.jpg)
 
