@@ -125,6 +125,31 @@ public function thereIsAAddContentLink()
 
 ---
 
+## А как это может работать в Ecommerce?
+
+![](resources/client.jpg)
+
+---
+
+```gherkin
+Feature: Adding a simple product to the cart
+    In order to select products for purchase
+    As a Visitor
+    I want to be able to add simple products to cart
+
+    Scenario: Adding a simple product to the cart
+        Given the store has a product "T-shirt banana" priced at "$12.54"
+        When I add this product to the cart
+        Then I should be on my cart summary page
+        And I should be notified that the product has been successfully added
+        And there should be one item in my cart
+        And this item should have name "T-shirt banana"
+```
+
+[пример взят из Sylius](https://github.com/Sylius/Sylius/blob/master/features)
+
+---
+
 ## Как работать?
 
 * размещаем спецификации в features
@@ -187,3 +212,11 @@ public function thereIsAAddContentLink()
 * Joomla BDD Examples [github/joomla-projects/gsoc16_browser-automated-tests](https://github.com/joomla-projects/gsoc16_browser-automated-tests/tree/staging/tests/codeception)
 * Liz Keogh: BDD [lizkeogh.com/behaviour-driven-development/](https://lizkeogh.com/behaviour-driven-development/)
 * Dan North: What's in a Story [dannorth.net/whats-in-a-story/](https://dannorth.net/whats-in-a-story/)
+
+---
+
+Приходите к нам!
+
+[http://bit.do/vecher](http://bit.do/vecher)
+
+![](resources/vecher.jpg)
