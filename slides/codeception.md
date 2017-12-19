@@ -207,16 +207,12 @@ Feature: Adding a simple product to the cart
 
 Михаил Боднарчук @davert
 
+**[Thinking-patterns.space](http://thinking-patterns.space)**
+
+---
 * Codeception BDD Guide [codeception.com/docs/07-BDD](http://codeception.com/docs/07-BDD)
 * Plumbus-PHP [github/remotelyliving/plumbus-php](https://github.com/remotelyliving/plumbus-php)
 * Joomla BDD Examples [github/joomla-projects/gsoc16_browser-automated-tests](https://github.com/joomla-projects/gsoc16_browser-automated-tests/tree/staging/tests/codeception)
 * Liz Keogh: BDD [lizkeogh.com/behaviour-driven-development/](https://lizkeogh.com/behaviour-driven-development/)
 * Dan North: What's in a Story [dannorth.net/whats-in-a-story/](https://dannorth.net/whats-in-a-story/)
 
----
-
-Приходите к нам!
-
-[http://bit.do/vecher](http://bit.do/vecher)
-
-![](resources/vecher.jpg)

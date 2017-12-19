@@ -21,11 +21,16 @@
 
 ---
 
-[http://bit.do/vecher](http://bit.do/vecher)
+### Написал книгу о паттернах в мышлении
 
-![](resources/vecher.jpg)
+[thinking-patterns.space](http://thinking-patterns.space)
 
-организовую офигительные вечера в Киеве
+(бесплатная, читайте!)
+
+![](resources/cropped-think-logo.png)
+
+
+
 
 ---
 
